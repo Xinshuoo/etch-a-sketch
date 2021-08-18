@@ -1,0 +1,17 @@
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    width: 960px;
+}
+
+.item {
+    border-width: 0px;
+    aspect-ratio: 1;
+}
